@@ -1,0 +1,30 @@
+.FooterBox {
+    background-color: #000000;
+    color: whitesmoke;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FooterBox p {
+    font-size: 1.3rem;
+    text-align: center;
+}
+.FooterBox p:nth-child(2) {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.git {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    margin-top: 10px;
+    transition: transform linear 200ms;
+	background-color: rgba(255, 255, 255, 0.157);
+	border-radius: 50px;
+}
+.git:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  outline: none;
+  font-family: 'Proxima Nova', Roboto, system-ui, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  color: hsl(var(--text-primary));
+}
+/* Font Size */
+h1 {
+  font-size: var(--heading-large);
+}
+h2 {
+  font-size: var(--heading-medium);
+}
+h3 {
+  font-size: var(--heading-small);
+}
+
+/* Font Weight */
+h1, h2 {
+  font-weight: 900;
+}
+h3, h4, h5, h6 {
+  font-weight: 800;
+}
+/* Paragraphs */
+p {
+  margin: 0;
+  color: hsl(var(--text-primary));
+  font-size: var(--paragraph);
+}
+
+
+a {
+  text-decoration: none;
+}
+
+span{
+  font-weight: bold;
+  color: white;
+}
+
+
+
+:root {
+  /* Main */
+  --primary: 300, 92%, 48%;
+  --secondary: 178, 100%, 40%;
+  --tertiary: 201, 96%, 71%;
+  --background: 240, 4%, 3%;
+  --text-primary: 0, 0%, 100%;
+  /* Colors */
+  --black: 0, 0%, 0%;
+  --white: 0, 0%, 100%;
+  --purple: 279, 84%, 68%;
+  /* Gradients */
+  --gradient: linear-gradient(90deg, hsla(var(--primary), 1) 0%, hsla(var(--secondary), 1) 50%, hsla(var(--tertiary), 1) 100%);
+  /* Sizes */
+  --paragraph: 1.2rem;
+  /* Transitions */
+  --transition-main: .175, .685, .32;
+  /* Fonts */
+  --font-main: "Poppins";
+}
+

@@ -1,0 +1,128 @@
+.card-wrapper{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+img{
+  width: 100%;
+  display: block;
+}
+.img-display{
+  overflow: hidden;
+}
+.img-showcase{
+  display: flex;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+.img-showcase img{
+  min-width: 100%;
+}
+
+.product-content{
+  padding: 2rem 1rem;
+}
+.product-title{
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  position: relative;
+  color: #989898;
+  margin: 1rem 0;
+}
+
+.product-link{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  padding: 0 0.3rem;
+  transition: all 0.5s ease;
+}
+
+
+.product-rating span{
+  font-weight: 600;
+  color: #252525;
+}
+
+.product-price{
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.product-price span{
+  font-weight: 400;
+}
+.last-price span{
+  color: #f64749;
+  font-weight: 700;
+}
+.new-price span{
+  color: #256eff;
+  font-weight: 700;
+}
+.product-detail h2{
+  text-transform: capitalize;
+  color: #12263a;
+  padding-bottom: 0.6rem;
+}
+.product-detail p{
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  opacity: 0.8;
+}
+.product-detail ul{
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+.product-detail ul li{
+  margin: 0;
+  list-style: none;
+  background: url(https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/checked.png) left center no-repeat;
+  background-size: 18px;
+  padding-left: 1.7rem;
+  margin: 0.4rem 0;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+.product-detail ul li span{
+  font-weight: 400;
+}
+
+.btn{
+  width: 250px;
+  height: 50px;
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn:hover{
+  background-color: #f64749;
+  transition: 0.4s;
+}
+
+@media screen and (min-width: 992px){
+  .card{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1.5rem;
+  }
+  .card-wrapper{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .product-content{
+      padding-top: 0;
+  }
+
+}
